@@ -1,0 +1,70 @@
+Rails:
+  Enabled: true
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+    - lib/**/*.rake
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'test/**/*'
+  TargetRubyVersion: 2.4
+Bundler/OrderedGems:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/BlockNesting:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Rails/SkipsModelValidations:
+  Exclude:
+    - 'lib/tasks/*.rake'
+Style/ConditionalAssignment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FileName:
+  Exclude:
+    - 'Gemfile'
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'bin/*'
+    - 'Rakefile'
+    - 'config.ru'
+Style/LineEndConcatenation:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/RedundantReturn:
+  Enabled: false
+Style/RedundantSelf:
+  Enabled: false
+Style/SymbolArray:
+  EnforcedStyle: brackets
+Style/VariableName:
+  EnforcedStyle: snake_case
+Style/VariableNumber:
+  EnforcedStyle: snake_case
+Style/WordArray:
+  EnforcedStyle: brackets
+Style/ZeroLengthPredicate:
+  Enabled: false
