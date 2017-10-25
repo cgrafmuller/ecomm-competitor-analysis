@@ -1,4 +1,4 @@
-class Store < ActiveRecord::Base
+class Store < ApplicationRecord
 	store_accessor :stores
 	has_many :competitors, :class_name => 'ClientCompetitor', :foreign_key => 'client_id'
 	has_many :raw_products

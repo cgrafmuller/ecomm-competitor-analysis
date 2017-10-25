@@ -1,2 +1,2 @@
-class GroupMatchExculsion < ActiveRecord::Base
+class GroupMatchExculsion < ApplicationRecord
 end

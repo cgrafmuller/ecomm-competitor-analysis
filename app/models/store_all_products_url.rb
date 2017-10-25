@@ -1,3 +1,3 @@
-class StoreAllProductsUrl < ActiveRecord::Base
+class StoreAllProductsUrl < ApplicationRecord
 	belongs_to :store
 end

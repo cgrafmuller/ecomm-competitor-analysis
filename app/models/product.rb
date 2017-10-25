@@ -1,4 +1,4 @@
-class Product < ActiveRecord::Base
+class Product < ApplicationRecord
 	belongs_to :manufacturer
 
 	def self.save_store_products

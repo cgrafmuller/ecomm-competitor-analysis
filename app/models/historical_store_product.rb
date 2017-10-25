@@ -1,2 +1,2 @@
-class HistoricalStoreProduct < ActiveRecord::Base
+class HistoricalStoreProduct < ApplicationRecord
 end

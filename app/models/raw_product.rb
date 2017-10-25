@@ -1,4 +1,4 @@
-class RawProduct < ActiveRecord::Base
+class RawProduct < ApplicationRecord
 	belongs_to :store
 
 	def self.clear_raw_products

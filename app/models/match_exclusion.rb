@@ -1,2 +1,2 @@
-class MatchExclusion < ActiveRecord::Base
+class MatchExclusion < ApplicationRecord
 end

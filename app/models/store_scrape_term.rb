@@ -1,3 +1,3 @@
-class StoreScrapeTerm < ActiveRecord::Base
+class StoreScrapeTerm < ApplicationRecord
 	belongs_to :store
 end

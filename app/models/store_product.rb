@@ -1,4 +1,4 @@
-class StoreProduct < ActiveRecord::Base
+class StoreProduct < ApplicationRecord
 	belongs_to :store
 
 	def self.archive_store_product(store_id)
